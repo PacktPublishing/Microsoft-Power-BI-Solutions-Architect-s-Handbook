@@ -1,0 +1,54 @@
+﻿<?xml version="1.0"?>
+<DTS:Executable xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:refId="PackagePart"
+  DTS:CreationDate="4/8/2022 3:58:19 PM"
+  DTS:CreationName="Microsoft.DTSPackagePart"
+  DTS:CreatorComputerName="ARPATTAN-SB2B"
+  DTS:CreatorName="NORTHAMERICA\arpattan"
+  DTS:DTSID="{74EE61B4-C151-42A4-8971-45000283F384}"
+  DTS:ExecutableType="Microsoft.DTSPackagePart"
+  DTS:LastModifiedProductVersion="15.0.2000.180"
+  DTS:LocaleID="1033"
+  DTS:ObjectName="ExtractSampleCurrency"
+  DTS:VersionBuild="1"
+  DTS:VersionGUID="{FF581472-4702-4312-A2DF-F67C93E7489B}">
+  <DTS:Property
+    DTS:Name="PackageFormatVersion">8</DTS:Property>
+  <DTS:Variables />
+  <DTS:Executables>
+    <DTS:Executable
+      DTS:refId="PackagePart\Extract Sample Currency Data"
+      DTS:CreationName="Microsoft.Pipeline"
+      DTS:Description="Data Flow Task"
+      DTS:DTSID="{EC39BA34-E090-48B9-AE0E-4BF7C957D497}"
+      DTS:ExecutableType="Microsoft.Pipeline"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Extract Sample Currency Data">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <pipeline
+          version="1" />
+      </DTS:ObjectData>
+    </DTS:Executable>
+  </DTS:Executables>
+  <DTS:DesignTimeProperties><![CDATA[<?xml version="1.0"?>
+<!--This CDATA section contains the layout information of the package. The section includes information such as (x,y) coordinates, width, and height.-->
+<!--If you manually edit this section and make a mistake, you can delete it. -->
+<!--The package will still be able to load normally but the previous layout information will be lost and the designer will automatically re-arrange the elements on the design surface.-->
+<Objects
+  Version="8">
+  <!--Each node below will contain properties that do not affect runtime behavior.-->
+  <PackagePart
+    design-time-name="PackagePart">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph">
+        <NodeLayout
+          Size="220.5,42"
+          Id="PackagePart\Extract Sample Currency Data"
+          TopLeft="5.5,5.5" />
+      </GraphLayout>
+    </LayoutInfo>
+  </PackagePart>
+</Objects>]]></DTS:DesignTimeProperties>
+</DTS:Executable>
